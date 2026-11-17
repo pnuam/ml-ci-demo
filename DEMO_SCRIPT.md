@@ -94,7 +94,7 @@ Sprechtext: „Der Pull Request verhindert, dass die Regression unbemerkt nach `
 ```python
 def tokenize_text(text: str) -> list[str]:
     """Convert text to lowercase whitespace-separated tokens."""
-    return text.lower().split()
+    return text.split()
 ```
 
 Dann:
